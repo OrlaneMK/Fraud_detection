@@ -244,7 +244,6 @@ with st.sidebar:
     st.info(f"""
     **Algorithm:** Random Forest
     **Features:** {len(feature_names)}
-    **Estimators:** {modele_rf.n_estimators}
     **Scaler:** {'✅ Loaded' if scaler else '❌ Not used'}
     """)
     
