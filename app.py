@@ -14,7 +14,7 @@ from pycaret.classification import*
 import warnings
 import matplotlib.pyplot as plt
 
-from .registry import BackendFilter, backend_registry
+#from .registry import BackendFilter, backend_registry
 
 warnings.filterwarnings('ignore')
 
